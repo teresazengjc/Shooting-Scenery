@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Shooting Scenery</title>
+        <style media="screen">
+            body{
+                background-image: url("images/isadshotthem.gif");
+            }
+            .ibelieve{
+                margin-left:8%;
+                margin-top:10%;
+                border-radius: 10px;
+                position: absolute;
+                background-color: rgba(0, 0, 0, 0.7);
+                width: 1200px;
+                height: 400px;
+
+                animation-name: ibelieve;
+                animation-duration: 8s;
+                animation-delay: 2s;
+                animation-play-state:running;
+                animation-fill-mode: both;
+                }
+                @keyframes thewarcomes {
+                0%, 10%, 20%, 25%, 50% {
+                transition-timing-function:ease-in;
+                }
+                0% {
+                opacity: 0;
+                transform: translate3d(3000px, 0, 0);
+                }
+                10% {
+                opacity: 1;
+                transform: translate3d(-25px, 0, 0);
+                }
+                25% {
+                transform: translate3d(10px, 0, 0);
+                }
+                50% {
+                transform: translate3d(-5px, 0, 0);
+                }
+                }
+            #text{
+            color:white;
+            text-align: center;
+            margin-top: 8%;
+            font-size: 50px;
+            font-weight: bold;
+            text-shadow:3px 3px 20px red;}
+        </style>
+    </head>
+    <body>
+        <div class=ibelieve><div id=text>Shooting Scenery instead of Shooting People.
+        <p>The World is Beautiful.</p></div></div>
+
+    </body>
+</html>

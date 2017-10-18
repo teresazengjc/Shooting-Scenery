@@ -1,0 +1,177 @@
+body {
+  margin: 0;
+  background: white;
+}
+
+a:link {
+color: #cc0000;
+}
+a:visited {
+color: #999999;
+}
+a:hover {
+color: #ff3300;
+}
+#panzhihua1{
+    position: absolute;
+    top:0%;
+    left:30%;
+    z-index:3;
+}
+#panzhihua2{
+    position: absolute;
+    top:50%;
+    left:60%;
+    z-index:3;
+}
+#lasvegas {
+    position: absolute;
+    top:40%;
+    z-index:4;
+}
+#lasvegas2 {
+    position: absolute;
+    top:0;
+    left:0;
+    z-index:1;
+}
+#lasvegas3 {
+    position: absolute;
+    top:500px;
+    left:200px;
+    z-index:10;
+}
+#paris {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+}
+#paris2 {
+    position:absolute;
+    top:0;
+    left:60%;
+    z-index:1;
+}
+#lasvegas4 {
+    position: absolute;
+    z-index:100;
+    animation-name: lasvegas4;
+    animation-duration:8s;
+    animation-delay: 0s;
+    animation-play-state:running;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    }
+    @keyframes lasvegas4 {
+        0% {
+            top:10%;
+            left:70%;
+        }
+        25%{
+            top:30%;
+            left: 20%
+        }
+        50% {
+            top:60%;
+            left: 40%
+        }
+        75% {
+            top:45%;
+            left:0%
+        }
+        100% {
+            top:5%;
+            left:70%
+
+        }
+    }
+
+.stopit {
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 10%;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 400px;
+    height: 400px;
+    z-index: 100;
+
+animation-name: stopit;
+animation-duration: 8s;
+animation-delay: 8s;
+animation-play-state:running;
+animation-fill-mode: both;
+}
+@keyframes stopit {
+0%, 10%, 20%, 35%, 50% {
+transition-timing-function:ease-in;
+}
+0% {
+opacity: 0;
+transform: translate3d(3000px, 0, 0);
+}
+10% {
+opacity: 1;
+transform: translate3d(-25px, 0, 0);
+}
+25% {
+transform: translate3d(10px, 0, 0);
+}
+50% {
+transform: translate3d(-5px, 0, 0);
+}
+}
+.stopit:hover {
+    background-color: rgba(200,200,200,0.9);
+}
+
+
+.continue {
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 10%;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 400px;
+    height: 400px;
+    z-index:200;
+
+animation-name: continue;
+animation-duration: 8s;
+animation-delay: 8s;
+animation-play-state:running;
+animation-fill-mode: both;
+}
+@keyframes continue {
+0%, 10%, 20%, 35%, 50% {
+transition-timing-function:ease-in;
+}
+0% {
+opacity: 0;
+transform: translate3d(3000px, 0, 0);
+}
+10% {
+opacity: 1;
+transform: translate3d(-25px, 0, 0);
+}
+25% {
+transform: translate3d(10px, 0, 0);
+}
+50% {
+transform: translate3d(-5px, 0, 0);
+}
+}
+.continue:hover {
+    background-color: rgba(200,200,200,0.9);
+}
+.text4{
+    margin-left: 30%;
+    margin-top:30%;
+    font-size: 60px;
+}
+.text5{
+    margin-left:20%;
+    margin-top:30%;
+    font-size: 60px;
+}
